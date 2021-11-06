@@ -1,0 +1,62 @@
+
+.topnav-container {
+    display: flex;
+    justify-content: space-between;
+    background-color:#FCF1EA ;
+ }
+ .center-logo{
+   display: flex;
+   justify-content: center; 
+   height: 150px;
+   background-color:#FCF1EA ;
+ }
+
+ .navigation-bar {
+   font-size: 60%;
+   border: 1px double dimgray;
+   height: 30px;
+   background-color: white;
+   color: #000000;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   padding:0px 40px;
+ }
+
+ .social-icons {
+    display: inline-block;
+
+ }
+
+ .social-icons:hover {
+    opacity: 0.7;
+    color: #fadbd8;
+ }
+ h1, h2, h3, h4, h5, h6 {
+    font-family:'News Cycle', sans-serif;
+    font-size:5px;
+
+  .homepage {
+    background-image: url(assets/stephanie-krist-cdUAfev8uRc-unsplash.jpg); 
+    padding: 100px; 
+    height: 100vh;
+    background-attachment: fixed;
+    background-size:cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+   }
+
+   body {
+    margin: 0;
+    font-family: 'News Cycle', sans-serif;
+}
+
+footer{
+    background-color:#932F0A;
+    border: 2px black;
+    color:antiquewhite;
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    padding: 20px 40px;
+}
