@@ -1,8 +1,23 @@
 .top-heading{
-    color:#f3b817; font-size: 50px;
-    border-left: NAvy; border-right: navy;
-}
-.main-paragraph{
-    color: darkslategray;
+    margin: auto;
+    Font-Family:'Raleway', Sans-Serif;
+    Font-Size: 44px;
+    color:black;
+    border-left: #932F0A; border-right: #932F0A;
     
 }
+.main-paragraph{
+    Font-Family: 'Open Sans', Sans-Serif;
+    Font-Size: 15px;
+    color:black;
+    flex-wrap: wrap;   
+}
+body{
+    background-color:#D88702;
+    padding:12px;
+   }
+   image{
+       margin:auto;
+       size-adjust:50%;
+       border-radius: 8px;
+   }

@@ -2,15 +2,15 @@
     display: flex;
     padding-top: 15px;
     justify-content:space-between;
-    background-color:#FCF1EA;
-    
+    background-color:#FCF1EA;  
  }
  .social-icons a {
   color: #000000;
   text-decoration: none;
  }
- .social-icons a:hover{
+ .social-icons a:hover,:-ms-expand{
    color: firebrick;
+   
 
  }
  .center-logo{
