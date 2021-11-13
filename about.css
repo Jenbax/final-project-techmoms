@@ -1,10 +1,14 @@
 .top-heading{
-    margin: auto;
+    text-align: center;
     Font-Family:'Raleway', Sans-Serif;
     Font-Size: 44px;
     color:black;
-    border-left: #932F0A; border-right: #932F0A;
-    
+    border-left: #932F0A; border-right: #932F0A;  
+}
+
+.center {
+    display: flex;
+    justify-content: center;
 }
 .main-paragraph{
     Font-Family: 'Open Sans', Sans-Serif;
