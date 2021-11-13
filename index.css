@@ -1,8 +1,17 @@
-
 .topnav-container {
     display: flex;
-    justify-content: space-between;
-    background-color:#FCF1EA ;
+    padding-top: 15px;
+    justify-content:space-between;
+    background-color:#FCF1EA;
+    
+ }
+ .social-icons a {
+  color: #000000;
+  text-decoration: none;
+ }
+ .social-icons a:hover{
+   color: firebrick;
+
  }
  .center-logo{
    display: flex;
@@ -10,7 +19,33 @@
    height: 150px;
    background-color:#FCF1EA ;
  }
+ .search {
+  width: 100%;
+  position: relative;
+  display: flex;
+ }
 
+ .search-text {
+  width: 100%;
+  border: 2px solid #808080;
+  border-right: none;
+  padding: 5px;
+  height: 14px;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  color: #9DBFAF;
+}
+.search-button {
+  width: 40px;
+  height: 28px;
+  border: 0.5px solid #808080;
+  background: #808080;
+  text-align: center;
+  color: #fff;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 20px;
+}
  .navigation-bar {
    font-size: 60%;
    border: 1px double dimgray;
@@ -22,20 +57,23 @@
    align-items: center;
    padding:0px 40px;
  }
+.navigation-bar a {
+  color: #000000;
+  text-decoration: none;
+}
 
- .social-icons {
-    display: inline-block;
+.navigation-bar a:hover {
+  color: firebrick;
+}
 
- }
-
- .social-icons:hover {
-    opacity: 0.7;
-    color: #fadbd8;
- }
  h1, h2, h3, h4, h5, h6 {
     font-family:'News Cycle', sans-serif;
-    font-size:5px;
-
+ }
+ .wrap {
+  width: 17%;
+  padding: 4px;
+ }
+ 
   .homepage {
     background-image: url(assets/stephanie-krist-cdUAfev8uRc-unsplash.jpg); 
     padding: 100px; 
@@ -47,7 +85,7 @@
    }
 
    body {
-    margin: 0;
+  
     font-family: 'News Cycle', sans-serif;
 }
 
